@@ -87,23 +87,23 @@ h1, h2, h3, h4, h5 {
 	width: 100%;
 	text-decoration: none;
 	color: gray;
-	padding: 0 30px 0 30px;
+	padding: 0 50px;
+	margin: 0px 10px;
+	font-size: 24px;
 }
 
 .logo {
 	padding-left: 80px;
 	display: inherit;
 	vertical-align: middle;
-	margin-top: -5px;
+	margin-top: -10px;
 }
 
 .opening-title {
 	width: 100%;
 	display: inline-block;
 	padding-top: 25px;
-	padding-bottom: 25px;
-	box-sizing: border-box;
-	align-items: center;
+	padding-bottom: 75px;
 }
 
 .main-title {
@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .main-title h1 {
-	font-size: 75px;
+	font-size: 90px;
 	padding: 25px 75px 10px 50px;
 	margin-bottom: 0px;
 }
@@ -128,7 +128,58 @@ h1, h2, h3, h4, h5 {
 	padding: 5px 50px;
 	margin-right: 25px;
 	margin-bottom: 25px;
-  	font-size: 12px;
+  	font-size: 18px;
 	background-color: white;
 	text-align: center;
+}
+
+.bottom-content {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.top-two-columns {
+	border-top: 2px solid black;
+	padding: 25px 0px;
+	width: 100%;
+}
+
+.two-columns {
+	display: inline-block;
+	width: 45%;
+	padding: 10px;
+	margin: auto 33px;
+	text-align: left;
+	font-size: 24px;
+}
+
+.three-bottom-columns {
+	border-bottom: 2px solid black;
+	padding: 25px 0px;
+	width: 100%;
+}
+
+.three-columns {
+	display: inline-block;
+	width: 30%;
+	padding: 10px;
+	margin: auto 21px;
+	text-align: left;
+	font-size: 24px;
+}
+
+.middle-img {
+	width: 97%;
+}
+
+.contact-info {
+	text-align: left;
+	padding-top: 25px;
+	padding-left: 30px;
+	font-size: 22px;
+}
+
+footer {
+	padding: 50px;
+	font-size: 22px;
 }
